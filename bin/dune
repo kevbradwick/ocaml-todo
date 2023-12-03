@@ -1,0 +1,4 @@
+(executable
+ (public_name todo_cli_app)
+ (name main)
+ (libraries todo_cli_app))

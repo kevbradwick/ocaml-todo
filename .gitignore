@@ -1,0 +1,56 @@
+# OCaml build artifacts
+_build/
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmt
+*.cmti
+*.o
+*.a
+
+# OCaml bytecode and native binaries
+*.byte
+*.native
+
+# Dune files
+.dune/
+*.install
+
+# Merlin files
+.merlin
+
+# OPAM files
+_opam/
+
+# macOS system files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Dependency directories
+node_modules/
+jbuilder/_build
+_build/
+*.byte
+*.native
+
+# Environment variables
+.env
+.env.local
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+*.temp
